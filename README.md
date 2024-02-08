@@ -1,9 +1,9 @@
 # meetify
 yettel onbording task
 
-to run the propject follow these steps 
+to run the project follow these steps 
 
-1> clone the directory in your local 
+1> clone the repo in your local 
 
 2> open your terminal ( navigate to the folder directory) run "npm i"
 
