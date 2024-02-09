@@ -21,14 +21,10 @@ const getData = () => {
 };
 const typeDef = `
 
-type User {
-  id:ID!,
-  name:String!
-}
 
 type Query{
-  users:[User]!,
-  getUser(id:ID!): User 
+  Name:String!,
+  Age:Int  
 }
 
   type Mutation {
@@ -37,11 +33,11 @@ type Query{
 `;
 const resolvers = {
     Query: {
-        users: async () => {
-            return getData();
+        Name: async () => {
+            return "Shubh";
         },
-        getUser: async (source, args, context) => {
-            return getData()[args.id];
+        Age: async () => {
+            return 22;
         },
     },
     Mutation: {
