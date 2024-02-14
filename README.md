@@ -59,7 +59,7 @@ npm run build
 Once the code is complied we can start the server by running the following command
 
 ```
-npm run dev
+npm run start
 ```
 
 If everything goes well we get
