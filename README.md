@@ -2,6 +2,7 @@
 
 This project aims to develop a robust GraphQL Federation architecture that seamlessly interfaces with Google APIs. The backend system is designed to authenticate using Google tokens, ensuring secure access and data privacy. It fetches user data from Google Calendar and Google People APIs, providing a unified platform for users to access and manage their information. This architecture not only simplifies data handling but also enhances the user experience by providing a one-stop solution for managing Google Calendar events and Google People contacts. The system’s interoperability and secure authentication make it a reliable and efficient solution for managing user data across multiple Google services.
 
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -118,3 +119,4 @@ query data {
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
